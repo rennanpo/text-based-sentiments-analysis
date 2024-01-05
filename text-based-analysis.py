@@ -36,7 +36,7 @@ while True:
         break
 while True:
     nomespesos = input(
-        "digite o nome do arquivo dos nomes e pesos: ")  # ler o nome do arquivo com as palavras e seus pesos
+        "digite o nome do arquivo das palavras: ")  # ler o nome do arquivo com as palavras
     resp = validar_arquivo(nomespesos)
     if resp:
         break
